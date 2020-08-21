@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+nav { 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10;
+  background: rgb(73,79,82);
+  color: white
+}
+
+.nav-links{
+  width: 40%;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+form { 
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+input { 
+  margin: 10px;
+  padding: 10px;
+}
+.link {
+  color: #FFF;
+}
+.link:hover {
+   color: #00F
+}
+link:visited {
+  color: #FFF;
+}
+.details {
+  display:flex;
+  flex-direction: column; 
+}
+.title{
+  text-decoration: underline;
+}
+.data{
+  color: red;
+}
