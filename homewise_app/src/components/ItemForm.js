@@ -17,7 +17,7 @@ function ItemForm () {
             alert("Submitting Name")
             console.log(JSON.stringify(userObject))
             //axios.post("http://localhost:8081/dev/save", JSON.stringify(userObject)).then(response => console.log(response))
-            axios.post("https://jjjipg9v15.execute-api.us-east-1.amazonaws.com/dev/save", JSON.stringify(userObject))
+            axios.post("https://jjjipg9v15.execute-api.us-east-1.amazonaws.com/prod/save", JSON.stringify(userObject))
             //axios.post("https://jjjipg9v15.execute-api.us-east-1.amazonaws.com/dev/hi", JSON.stringify(userObject)).then(response => console.log(response))
             //axios.post("https://jjjipg9v15.execute-api.us-east-1.amazonaws.com/dev/save", JSON.stringify(userObject)).then(response => console.log(response))
         }else{

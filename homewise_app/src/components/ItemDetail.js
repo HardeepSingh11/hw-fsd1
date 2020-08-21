@@ -12,7 +12,7 @@ function ItemDetail(props) {
 
     const fetchItem = async () => {
         //const data = await fetch(`http://localhost:8081/dev/id/${props.match.params.id}`).then(response => response.json())
-        const data = await fetch(`https://jjjipg9v15.execute-api.us-east-1.amazonaws.com/dev/id/${props.match.params.id}`).then(response => response.json())
+        const data = await fetch(`https://jjjipg9v15.execute-api.us-east-1.amazonaws.com/prod/id/${props.match.params.id}`).then(response => response.json())
         setUser(data)
     }
     console.log(user)

@@ -10,7 +10,7 @@ function ItemList() {
 
     const fetchUsers = async () => {
         //const data = await fetch("http://localhost:8081/dev/id").then(response => response.json())
-        const data = await fetch("https://jjjipg9v15.execute-api.us-east-1.amazonaws.com/dev/id").then(response => response.json())
+        const data = await fetch("https://jjjipg9v15.execute-api.us-east-1.amazonaws.com/prod/id").then(response => response.json())
         setUsers(data)
         await console.log(data)
     }
